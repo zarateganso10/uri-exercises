@@ -15,7 +15,6 @@ int main(){
     for(int i=0; i < TAM; i++){
         if(flag == 0){
             for(int j = 0; j < TAM; j++){
-                // cout << M[i][j];
                 if(M[i][j] == 'o'){
                     cont++;
                 }
@@ -29,7 +28,6 @@ int main(){
             flag = 1;
         }else{
             for(int j = TAM -1; j >= 0; j--){
-                // cout << M[i][j];
                 if(M[i][j] == 'o'){
                     cont++;
                 }
